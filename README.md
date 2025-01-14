@@ -3,7 +3,8 @@
 ## Setup
 
 1. Clone the repository
-2. ...
+2. Run `python main.py` in your terminal
+3. Watch our house come to life!
 
 ## Our process
 

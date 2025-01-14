@@ -8,8 +8,8 @@ def draw_cloud(x, y):
     turtle.fillcolor("white")
     turtle.begin_fill()
     for _ in range(4):
-        turtle.circle(30)
-        turtle.forward(30)
+        turtle.circle(40)
+        turtle.forward(40)
     turtle.end_fill()
 
 def draw_rectangle(x, y, width, height, color="black"):

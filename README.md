@@ -1,6 +1,11 @@
 # BIODS 253 Assignment 2
 
-### Initial blueprint
+## Setup
+
+1. Clone the repository
+2. ...
+
+## Our process
 
 This was our initial blueprint for the project:
 ![Initial blueprint](blueprint.jpeg)

@@ -30,10 +30,17 @@ screen_width = 800
 screen_height = 600
 
 # ----- GROUND AND SKY -----
-# Draw sky
-draw_rectangle(-screen_width/2, screen_height/2, screen_width, screen_height*2/3, "lightblue")
-# Draw ground
-draw_rectangle(-screen_width/2, -screen_height/6, screen_width, screen_height/3, "green")
+# Draw sky (top 2/3)
+draw_rectangle(-screen_width/2, screen_height/2,               # Start at top-left
+              screen_width,                                    # Full width
+              -(2 * screen_height/3),                         # Negative height to draw downward
+              "lightblue")
+
+# Draw ground (bottom 1/3)
+draw_rectangle(-screen_width/2, -screen_height/2,             # Start at bottom-left
+              screen_width,                                   # Full width
+              screen_height/3,                                # One third of height
+              "green")
 
 # ----- HOUSE FRAME -----
 # Draw main rectangle for house frame

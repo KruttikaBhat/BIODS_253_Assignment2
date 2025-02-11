@@ -1,10 +1,16 @@
-# BIODS 253 Assignment 2
+# BIODS 253 Assignment 3
 
 ## Setup
 
 1. Clone the repository
-2. Run `python main.py` in your terminal
-3. Watch our house come to life!
+2. Run `conda create -n turtle-test python=3.10` and run `conda activate turtle-test`
+3. Run `python main.py` in your terminal
+4. Watch our house come to life!
+
+## Unit Tests
+
+1. Run `conda install -c conda-forge cairocffi` and `pip install svg-turtle svglib reportlab matplotlib rlPyCairo`
+2. Run `drawing_test.py` to ensure all tests pass
 
 ## Our process
 
